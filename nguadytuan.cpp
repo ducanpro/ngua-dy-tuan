@@ -30,7 +30,7 @@ void dituan(int x, int y, int n, int dem, int a[][100]){
 		found = 1; //da tim thay
 		return;
 	}
-	for(int i = 0; i < 83; i++){
+	for(int i = 0; i < 8; i++){
 		int xx = x + dx[i];
 		int yy = y + dy[i];
 		if(xx <= n && yy <= n && xx >= 1 && yy >= 1 && a[xx][yy] == 0){
@@ -67,5 +67,6 @@ int main(){
 
 	return 0;
 }
+
 
 
